@@ -17,7 +17,7 @@ int main(int argc, char* argv[]) {
 	printf("Sqrt of %d is %f\n",input,sqrt(input));
 	else
 	{
-		printf("Sqrt of %d is %f",input,sqrt(input));
+		printf("Sqrt of %d is %f",input,sqrt(-1*input));
 		printf("i\n");
 	}
 	
