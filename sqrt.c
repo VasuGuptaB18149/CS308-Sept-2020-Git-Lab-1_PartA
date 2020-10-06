@@ -8,20 +8,20 @@ positive number. */
 int main(int argc, char* argv[]) {
 	
 	if (argc != 2) {
-		printf("Usage: sqrt input\n\n");
+		printf("NEGSUPPORT: Usage: sqrt input\n\n");
 		exit(-1);
 	}
 
 	int input = atoi(argv[1]);
 	if(input>=0)
-	printf("Sqrt of %d is %f\n",input,sqrt(input));
+	printf("NEGSUPPORT: Sqrt of %d is %f\n",input,sqrt(input));
 	else
 	{
-		printf("Sqrt of %d is equal to %f",input,sqrt(input));
+		printf("NEGSUPPORT: Sqrt of %d is equal to %f",input,sqrt(input));
 		printf("i\n");
 	}
 	
-	printf("End of program --- EXITING.\n");
+	printf("NEGSUPPORT: End of program --- EXITING.\n");
 	return(0);
 
 } // end main
